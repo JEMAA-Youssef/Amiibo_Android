@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Amiboprojetfinal" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Même contenu que le thème clair -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+</resources>

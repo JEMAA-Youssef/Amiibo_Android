@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Amiboprojetfinal" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Couleurs personnalisées -->
+        <item name="colorPrimary">@color/white</item> <!-- fond ActionBar -->
+        <item name="colorOnPrimary">@color/black</item> <!-- texte de la barre -->
+        <item name="android:textColorPrimary">@color/black</item> <!-- au cas où -->
+        <item name="actionBarTheme">@style/CustomActionBar</item>
+    </style>
+
+    <!-- Sous-style pour la barre d'action -->
+    <style name="CustomActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+</resources>
